@@ -1,0 +1,11 @@
+name: WorldEditSnapshotCommit
+main: com.momo.worldeditsnapshotcommit.WorldEditSnapshotCommit
+version: 1.0
+authors: [Momo]
+softdepend: []
+depend: [WorldEdit]
+commands:
+    commit:
+        description: Paste the clipboard to the selected snapshot.
+        usage: //<command>
+        aliases: [commit]
